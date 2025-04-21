@@ -45,27 +45,60 @@ header{
     box-shadow: 0px 5px 10px;
     background-color: #D9D9D9;
 }
-.card img{
-    width: 200px;
+.comments{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 650px;
+    height: 575px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px;
+    background-color: #D9D9D9;
 }
-.c{
+.bod{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 }
-.c h1{
-    padding: 50px;
+.cardd{
+    width: 600px;
+    height: 525px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    background-color: #ffffff;
+    margin: 25px;
+    margin-right: 0px;
 }
-.c img{
-    padding-left: 100px;
-    padding-top: 50px;
+.carddd{
+    width: 360px;
+    height: 298px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #ffffff;
+    margin-right: 25px;
+}
+.card img{
+    width: 320px;
+}
+.cardd p{
+    font-size: 18px;
 }
 .v{
-    margin-left: 100px;
-    margin-top: 60px;
-}
-.b{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+}
+.bv{
+    padding-left: 25px;
+    margin-right: 25px;
+}
+.vb{
+   
+}
+.vb img{
+    margin: 25px;
+}
+.vb h3{
+    padding-left: 25px;
+    padding-top: 10px;
 }
 .n{
     padding-top: 50px;
@@ -99,7 +132,7 @@ footer div{
     text-decoration: underline;
 }
 .barra{
-    margin-top: 25px;
+    margin-top: 50px;
     width: 1000px;
     height: 30px;
     border-radius: 15px;
@@ -110,15 +143,6 @@ footer div{
 .barrita{
     display: flex;
     justify-content: center;
-}
-.comments{
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 650px;
-    height: 575px;
-    border-radius: 30px;
-    box-shadow: 0px 5px 10px;
-    background-color: #D9D9D9;
 }
 .barritaa{
     margin: 25px;
@@ -164,7 +188,6 @@ footer div{
     display: flex;
     align-items: center;
 }
-.bod{
-    display: flex;
-    justify-content: space-around;
+.frd{
+  width: 70px;
 }
